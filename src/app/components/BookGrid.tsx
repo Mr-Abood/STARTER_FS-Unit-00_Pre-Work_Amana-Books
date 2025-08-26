@@ -131,7 +131,7 @@ const BookGrid: React.FC<BookGridProps> = ({ books, onAddToCart }) => {
   };
 
   return (
-    <div className="container mx-auto px-4 py-8">
+    <div id="books" className="container mx-auto px-4 py-8">
       {/* Featured Books Section */}
       <section className="mb-12">
         <div className="flex items-center justify-between mb-6">
